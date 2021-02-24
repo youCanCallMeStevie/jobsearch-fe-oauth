@@ -45,7 +45,7 @@ const mapStateToProps = (state) => {
         </Link>
         <Nav className="ml-auto">
           {!isLogged ? (
-            <a href={`${process.env.REACT_APP_BE_URL}/api/users/auth/google`}>
+            <a href={`${process.env.REACT_APP_BE_URL}/api/users/auth/googleLogin`}>
               LOGIN
             </a>
           ) : (
